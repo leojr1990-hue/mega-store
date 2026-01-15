@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartwatch Pro | Oferta Exclusiva</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .bg-dark-premium { background-color: #0F172A; } /* Azul Marinho Profundo */
+        .glass { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .btn-green { background: linear-gradient(90deg, #10B981 0%, #059669 100%); transition: all 0.3s ease; }
+        .btn-green:hover { transform: translateY(-2px); box-shadow: 0 10px 20px -5px rgba(16, 185, 129, 0.5); }
+        .card-product:hover { border-color: #10B981; }
+    </style>
+</head>
+<body class="bg-dark-premium text-white">
+
+    <div class="bg-emerald-600 text-white text-center py-2 text-xs font-bold uppercase tracking-widest">
+        🔥 PROMOÇÃO DE LANÇAMENTO: FRETE GRÁTIS + 50% OFF APENAS HOJE
+    </div>
+
+    <nav class="sticky top-0 z-50 glass py-4 px-8 flex justify-between items-center">
+        <div class="text-2xl font-extrabold tracking-tighter">LOJA<span class="text-emerald-500">PRO</span></div>
+        <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-300">
+            <a href="#" class="hover:text-emerald-400 transition">Início</a>
+            <a href="#" class="hover:text-emerald-400 transition">Benefícios</a>
+            <a href="#" class="hover:text-emerald-400 transition">Depoimentos</a>
+        </div>
+        <button class="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-2 rounded-full font-bold text-xs transition">COMPRAR AGORA</button>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-6 py-16 md:py-24 grid md:grid-cols-2 gap-12 items-center">
+        
+        <div class="order-2 md:order-1">
+            <div class="inline-block px-3 py-1 bg-emerald-500/10 border border-emerald-500/20 rounded-full text-emerald-400 text-xs font-bold mb-6">
+                ✨ QUALIDADE PREMIUM GARANTIDA
+            </div>
+            <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
+                Tenha mais praticidade com o <span class="text-emerald-500">Smartwatch Pro</span>
+            </h1>
+            <p class="text-gray-400 text-lg mb-10 max-w-lg">
+                O equilíbrio perfeito entre elegância e tecnologia. Monitore sua saúde, receba notificações e controle sua rotina com um toque.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="#checkout" class="btn-green text-center px-8 py-5 rounded-2xl font-black text-lg shadow-xl">
+                    QUERO APROVEITAR AGORA!
+                </a>
+            </div>
+
+            <div class="mt-8 flex items-center gap-6 text-gray-500 border-t border-white/10 pt-8">
+                <div class="flex items-center gap-2 text-xs"><span class="text-emerald-500 text-xl">🛡️</span> Compra 100% Segura</div>
+                <div class="flex items-center gap-2 text-xs"><span class="text-emerald-500 text-xl">🚚</span> Envio Imediato</div>
+            </div>
+        </div>
+
+        <div class="order-1 md:order-2 relative">
+            <div class="absolute inset-0 bg-emerald-500/20 blur-[120px] rounded-full"></div>
+            <img src="https://images.unsplash.com/photo-1544117518-2b476eb996cf?auto=format&fit=crop&q=80&w=800" 
+                 alt="Smartwatch Pro" 
+                 class="relative z-10 w-full rounded-3xl shadow-2xl border border-white/10">
+            
+            <div class="absolute -bottom-6 -left-6 glass p-4 rounded-2xl hidden md:block z-20">
+                <div class="flex items-center gap-3">
+                    <div class="flex -space-x-2">
+                        <img class="w-8 h-8 rounded-full border-2 border-dark-premium" src="https://i.pravatar.cc/100?u=1">
+                        <img class="w-8 h-8 rounded-full border-2 border-dark-premium" src="https://i.pravatar.cc/100?u=2">
+                    </div>
+                    <p class="text-xs font-bold">12 pessoas comprando agora</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section id="checkout" class="max-w-4xl mx-auto px-6 py-20">
+        <div class="glass rounded-[40px] p-8 md:p-12 text-center border-2 border-emerald-500/30">
+            <h2 class="text-3xl font-bold mb-2">Oferta Especial de Lançamento</h2>
+            <p class="text-gray-400 mb-8 uppercase tracking-widest text-sm">Estoque limitado no Brasil</p>
+            
+            <div class="space-y-2 mb-10">
+                <span class="text-gray-500 line-through text-xl">R$ 497,00</span>
+                <div class="text-6xl md:text-7xl font-black text-white">R$ 247,90</div>
+                <div class="text-emerald-400 font-bold text-lg">ou 12x de R$ 24,80</div>
+            </div>
+
+            <button class="btn-green w-full md:w-auto md:px-20 py-6 rounded-2xl font-black text-2xl shadow-2xl mb-6">
+                ADICIONAR AO CARRINHO
+            </button>
+            
+            <div class="flex flex-wrap justify-center gap-6 opacity-60">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" class="h-6">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" class="h-8">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" class="h-6">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Logo_Pix.png" class="h-6">
+            </div>
+        </div>
+    </section>
+
+    <a href="#" class="fixed bottom-6 right-6 bg-[#25D366] p-4 rounded-full shadow-2xl hover:scale-110 transition z-[100]">
+        <img src="https://img.icons8.com/color/48/ffffff/whatsapp--v1.png" class="w-8 h-8">
+    </a>
+
+</body>
+</html>
